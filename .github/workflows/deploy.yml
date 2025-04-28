@@ -1,4 +1,4 @@
-name: 部署GH Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -7,15 +7,14 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    permissions:
-        contents: write 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
       
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 20
+          node-version: '20'
           
       - name: Install dependencies
         run: yarn install
@@ -27,5 +26,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: .vitepress/dist
-          cname: nekobyte.top
+          publish_dir: docs/.vitepress/dist
+          cname: nekobyte.top 
