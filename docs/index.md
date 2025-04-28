@@ -4,7 +4,7 @@ pageClass: home-page  # 新增唯一标识
 
 hero:
   name: 'NekoByte'
-  tagline: NekoByte 官方网站
+  tagline: NekoByte 团队官网
   image:
     src: /logo.png
     alt: NekoByte

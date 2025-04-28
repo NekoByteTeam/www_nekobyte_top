@@ -66,7 +66,7 @@ export default defineConfig({
     externalLinkIcon: true, // 展示站外链接箭头 ↗
     // 下方是文档中文适配内容
     footer: {
-      message: `文档版本 ${pkg.version} | 本站由 <a href="${data.cdn.url}">${data.cdn.name}</a> 提供加速服务 | <a href="https://icp.gov.moe/?keyword=${data.icp.number}">萌ICP备${data.icp.number}号</a>`,
+      message: `<a href="https://icp.gov.moe/?keyword=${data.icp.number}">萌ICP备${data.icp.number}号</a>`,
       copyright: `版权所有 © 2022-${new Date().getFullYear()} NekoByte`,
     },
     docFooter: {
