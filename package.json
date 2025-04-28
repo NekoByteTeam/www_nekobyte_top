@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0",
+  "name": "nekobyte.top",
+  "description": "NekoByte",
+  "private": true,
+  "scripts": {
+    "docs:dev": "vitepress dev docs --host",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.6.0",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/vue-fontawesome": "^3.0.8",
+    "@nolebase/vitepress-plugin-enhanced-mark": "^2.2.0",
+    "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.2.0",
+    "@nolebase/vitepress-plugin-highlight-targeted-heading": "^2.2.0",
+    "vitepress": "^1.3.4",
+    "vue": "^3.5.8"
+  },
+  "keywords": [
+    "NekoByte"
+  ],
+  "devDependencies": {
+    "@types/node": "^22.5.4"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search",
+        "search-insights"
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "author": "nekobyte.top",
+  "description": "",
+  "keywords": [
+    "NekoByte"
+  ],
+  "license": "WTFPL",
+  "cdn": {
+      "name": "Vercel",
+      "url": "https://932.moe/vercel"
+  },
+  "icp": {
+      "number": 20251400
+  }
+}

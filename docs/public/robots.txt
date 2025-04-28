@@ -1,0 +1,8 @@
+# robots.txt for OFS
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: *
+Allow:
+
+Sitemap: https://docs.ofs.moe/sitemap.xml
