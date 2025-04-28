@@ -23,7 +23,6 @@ export default defineConfig({
       {
         text: "关于",
         items: [
-          { text: "关于我们", link: "/about/team" },
           { text: "隐私政策", link: "/about/privacy-policy" },
           { text: "免责声明", link: "/about/disclaimers" },
         ],
